@@ -4,8 +4,8 @@ array = []
 
   while counter < array.length do
 puts array[counter] ** 2
-array.push(square)
+result = array.push(square)
     counter += 1
   end
-  return array
+  return result
 end
