@@ -3,9 +3,9 @@ counter = 0
 array = []
 
   while counter < array.length do
-    puts array[counter] ** 2
-array << 
+    new_array = []
+    new array << array[counter] ** 2
     counter += 1
   end
-  return array
+  return new_array
 end
