@@ -3,8 +3,8 @@ counter = 0
 array = []
 
   while counter < array.length do
-    array << array[counter] ** 2
-
+    puts array[counter] ** 2
+array <<
     counter += 1
   end
   return array
