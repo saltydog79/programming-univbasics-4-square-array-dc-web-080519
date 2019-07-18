@@ -3,8 +3,8 @@ counter = 0
 array = []
 
   while counter < array.length do
-  puts array.push(array[counter] ** 2)
+  puts array[counter] ** 2
+  return array
     counter += 1
-    return array
   end
 end
