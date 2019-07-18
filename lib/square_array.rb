@@ -7,5 +7,5 @@ square = array[counter] ** 2
 p .push(square)
     counter += 1
   end
-  return array
+  return array.push(square)
 end
